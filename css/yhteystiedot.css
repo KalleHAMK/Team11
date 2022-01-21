@@ -4,6 +4,7 @@ h1{
 }
 .col > p {
     text-decoration: wavy;
+    color: red;
 }
 body{
     background-color: rgb(31, 4, 4);
@@ -14,4 +15,7 @@ text-decoration: double;
 }
 label{
     color: red;
+}
+.navbar-brand > img{
+    width: 100px;
 }
