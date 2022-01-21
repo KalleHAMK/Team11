@@ -1,7 +1,9 @@
-h1{
-    color: antiquewhite;
-    text-align: center;
+.centered{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40pt;
 }
+
 .col > p {
     text-decoration: wavy;
     color: red;
@@ -18,4 +20,16 @@ label{
 }
 .navbar-brand > img{
     width: 100px;
+}
+.container > img{
+width: 100%;
+}
+.container {
+    position: relative;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
