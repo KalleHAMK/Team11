@@ -1,14 +1,36 @@
 body {
-    background-color: rgb(148, 163, 131);
+    background-color: rgb(187, 170, 147);
+}
+h1 {
+
+    border-bottom: 2px solid #423e3e;
+}
+
+header {
+    color: #fafafa;
+    font-size: 60px;
+    text-align: center;
+    background-color: rgb(61, 95, 30);
+
 }
 
 div {
-background-color: rgb(255, 255, 255);
-color: darkolivegreen;
+background-color: rgb(238, 233, 229);
+color: rgb(231, 59, 16);
 
 }
 
 footer {
 
    background-color: rgb(64, 75, 52); 
+}
+
+img {
+width: 1100px;
+height: 500px;
+opacity: 0.9;
+margin: auto;
+display: block;
+      
+
 }
