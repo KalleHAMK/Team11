@@ -1,4 +1,4 @@
-body {
+/* body {
     display: flex;
     flex-direction: column;
   margin-left: 0%;
@@ -58,7 +58,7 @@ margin-top: 50px;
 }
 
 /* Create three equal columns that floats next to each other */
-.column {
+/* .column {
   float: left;
   width: 25%;
   padding: 10px;
@@ -71,9 +71,8 @@ margin-top: 50px;
 }
 
 /* Clear floats after the columns */
-.row:after {
+/* .row:after {
   content: "";
   display: table;
   clear: both;
 }
-
