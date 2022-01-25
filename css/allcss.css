@@ -1,0 +1,75 @@
+/*lauran*/
+body {
+    background-color: rgb(34, 34, 34);
+    }
+    h2 {
+    font-size: 40px;
+    border-bottom: 2px solid #423e3e;
+    }
+    h1 {
+    color: #fafafa;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(61, 95, 30);
+    }
+    div {
+    background-color: rgb(212, 199, 190);
+    color: rgb(233, 47, 0);
+    }
+    footer {
+    font-size: 20px;
+    color: rgb(62, 84, 112);
+    text-align: center;
+    background-color: rgb(249, 250, 248); 
+    border: solid 8px;
+    border-color: rgb(34, 34, 34)
+    }
+    img {
+    margin: auto;
+    display: block;
+    }
+    nav {
+    font-size: 20px;
+    }
+
+
+
+ /*timon*/
+.col > p {
+    text-decoration: wavy;
+}
+body{
+}
+.col > h2{
+text-decoration: double;
+}
+label{ 
+}
+.navbar-brand > img{
+    width: 100px;
+}
+body > h1{
+    text-align: center;
+    font-size: 30;
+}
+footer > p{
+text-align: center;
+}
+
+
+/*kallen*/
+
+
+/*tuukan*/
+
+/* kaikki vois kopsaa tän headerin eli kallen tekekemän logon oman sivunsa yläreunaan
+ja sit tän mun tekemän footerin jossa somet oman sivunsa alas footeriin :) eiköhän ne sitten oo tarpeeks yhtenäiset
+
+ <header>
+    <img src="file:///C:/Users/laura/OneDrive/Documents/GitHub/Team11/LOGO.svg" heigt="200" width="300" alt="logo">
+  </header>
+
+<footer>
+      <b>Seuraa meitä</b>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuvvRd40LzCTiTDppCN7orN-8zoyPY_G1XTQ&usqp=CAU" height="70px" weight="70px" alt="some">
+    </footer>
