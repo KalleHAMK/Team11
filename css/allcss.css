@@ -12,8 +12,8 @@ body {
     text-align: center;
     background-color: rgb(61, 95, 30);
     }
-    div {
-    background-color: rgb(255, 255, 255);
+    div > .col-4 {
+    background-color: rgb(230, 211, 195);
     color: rgb(233, 47, 0);
     }
     footer {
@@ -39,12 +39,11 @@ body {
 .col > p {
     text-decoration: wavy;
 }
-body{
+div > .col-2{
+   background-color: rgb(249, 250, 248);
 }
 .col > h2{
 text-decoration: double;
-}
-label{ 
 }
 .navbar-brand > img{
     width: 100px;
@@ -56,7 +55,14 @@ body > h1{
 footer > p{
 text-align: center;
 }
-
+div > .col{
+    background-color:rgb(230, 211, 195); 
+    color: rgb(233, 47, 0);
+}
+div > .center{
+    background-color: rgb(230, 211, 195);
+    color: rgb(233, 47, 0);
+}
 
 /*kallen*/
 
