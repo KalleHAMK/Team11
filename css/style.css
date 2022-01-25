@@ -1,3 +1,13 @@
+footer {
+  font-size: 20px;
+  color: rgb(62, 84, 112);
+  text-align: center;
+  background-color: rgb(249, 250, 248); 
+  border: solid 7px;
+  border-color: rgb(34, 34, 34);
+  
+
+
 /* body {
     display: flex;
     flex-direction: column;

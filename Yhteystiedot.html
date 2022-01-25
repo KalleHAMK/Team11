@@ -13,8 +13,8 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <img src="LOGO.svg" width="100" height="30" alt="restaurant team 11 logo">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"> <img src=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -39,31 +39,67 @@
       <div class="col">
         <h2>Aukioloajat</h2>
         <br>
-        <p>Tietoja</p>
+        <ul>
+         <li>Maanantai 10:30-22:00</li>
+         <li>Tiistai 10:30-22:00</li>
+         <li>Keskiviikko 10:30-22:00</li>
+         <li>Torstai 10:30-22:00</li>
+         <li>Perjantai 10:30-24:00</li>
+         <li>Lauantai 12:00-02:00</li>
+         <li>Sunnuntai 12:00-22:00</li>
+        </ul>
       </div>
       <div class="col">                                         
         <h2>Ota meihin yhteyttä</h2>
         <br>
         <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Puhelinnumero</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="1234567890">
+          <label for="name" class="form-label">Nimi</label><br>
+          <input type="name" class="form-controll" id="name" placeholder="Matti Meikäläinen">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Sähköposti</label>
+            <input type="email" class="form-control" id="email" placeholder="nimi@esimerkki.fi">
           </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Nimi</label><br>
-            <input type="phone number" class="form-controll" id="exampleFormControlInput2" placeholder="Matti Meikäläinen">
-          </div>
+          <label for="number" class="form-label">Puhelinnumero</label>
+          <input type="phone number" class="form-control" id="number" placeholder="1234567890">
           <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">Viesti</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Kirjoita tähän" rows="3"></textarea>
           </div>
+          <a class="button">
+            <button type="submit">Lähetä viesti</button>
+          </a>>
       </div>
     </div>
   </div>
 
 </div>
-
+<br>
 <footer>
-<p>Linkit sosiaalisiin medioihin</p>
+<h2>Seuraa meitä</h2>
+<br>
+<div class="container">
+  <div class="row justify-content-md-center">
+  <div class="col-2">
+     <a href="https://www.facebook.com/">
+    <img src="https://www.facebook.com/images/fb_icon_325x325.png" alt="Facebook logo" width="100px" height="100px" >
+     </a>
+  </div>
+    <div class="col-2">
+      <a href="https://www.instagram.com/">
+        <img src="https://play-lh.googleusercontent.com/h9jWMwqb-h9hjP4THqrJ50eIwPekjv7QPmTpA85gFQ10PjV02CoGAcYLLptqd19Sa1iJ" alt="instagram logo" width="100px"
+        height="100px">
+      </a>
+    </div>
+   <div class="col-2">
+     <a href="https://www.youtube.com/">
+      <img src="https://www.youtube.com/img/desktop/yt_1200.png" alt="yotube logo" width="100px" height="100px">
+      
+    </a>
+   </div>
+  </div>
+
+</div>
 
 </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
