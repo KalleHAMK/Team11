@@ -13,7 +13,7 @@ body {
     background-color: rgb(61, 95, 30);
     }
     div {
-    background-color: rgb(212, 199, 190);
+    background-color: rgb(255, 255, 255);
     color: rgb(233, 47, 0);
     }
     footer {
@@ -21,7 +21,7 @@ body {
     color: rgb(62, 84, 112);
     text-align: center;
     background-color: rgb(249, 250, 248); 
-    border: solid 8px;
+    border: solid 2px;
     border-color: rgb(34, 34, 34)
     }
     img {
@@ -63,8 +63,4 @@ text-align: center;
 
 /*tuukan*/
 
-/* 
-<footer>
-      <b>Seuraa meitä</b>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuvvRd40LzCTiTDppCN7orN-8zoyPY_G1XTQ&usqp=CAU" height="70px" weight="70px" alt="some">
-    </footer>
+
