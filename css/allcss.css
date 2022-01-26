@@ -11,6 +11,10 @@ body {
     font-size: 50px;
     text-align: center;
     background-color: rgb(61, 95, 30);
+    box-shadow: inset 0 3px 3px rgba(0,0,0,0.5),
+                    inset 0 -3px 3px rgba(0,0,0,0.5);
+
+    
     }
     div > .col-4 {
     background-color: rgb(255, 255, 255);
@@ -24,16 +28,31 @@ body {
     border: solid 2px;
     border-color: rgb(34, 34, 34)
     }
-    img {
-    margin: auto;
-    display: block;
-    }
-    nav {
-        
-    font-size: 20px;
-    }
 
+    .further-info {
+        clear: left;
+        padding: 40px 0;
+        background: rgb(61, 95, 30);
+        box-shadow: inset 0 3px 3px rgba(0,0,0,0.5),
+                    inset 0 -3px 3px rgba(0,0,0,0.5);
+       
+      }
 
+      .further-info a {
+        width: 25%;
+        display: block;
+        float: left;
+      }
+
+      .further-info img {
+        max-width: 100%;
+      }
+
+      .clearfix {
+        clear: both;
+      }
+
+  
 
  /*timon*/
 .col > p {
@@ -66,10 +85,4 @@ div > .center{
 div > .mb-3{
     color: black;
 }
-
-/*kallen*/
-
-
-/*tuukan*/
-
 
