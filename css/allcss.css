@@ -63,6 +63,9 @@ div > .center{
     background-color: rgb(230, 211, 195);
     color: rgb(233, 47, 0);
 }
+div > .mb-3{
+    color: black;
+}
 
 /*kallen*/
 
