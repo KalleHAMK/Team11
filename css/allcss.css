@@ -17,9 +17,12 @@ body {
     
     }
     div > .col-4 {
-    background-color: rgb(255, 255, 255);
-    color: rgb(233, 47, 0);
+    
+        background: url('menukuvat/puu.png');
+        color:tomato;
+       
     }
+  
     footer {
     font-size: 20px;
     color: rgb(62, 84, 112);
@@ -32,7 +35,7 @@ body {
     .further-info {
         clear: left;
         padding: 40px 0;
-        background: rgb(61, 95, 30);
+        background: rgb(233, 47, 0);
         box-shadow: inset 0 3px 3px rgba(0,0,0,0.5),
                     inset 0 -3px 3px rgba(0,0,0,0.5);
        
