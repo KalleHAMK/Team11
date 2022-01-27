@@ -17,7 +17,7 @@ body {
     
     }
     div > .col-4 {
-        background: url(wood.png);
+        background: url('menukuvat/wood.png');
         color: rgb(228, 75, 48);
      
     }
