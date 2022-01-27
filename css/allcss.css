@@ -17,7 +17,7 @@ body {
     
     }
     div > .col-4 {
-        background-color: white;
+        background: url('wood.png');
         color: rgb(228, 75, 48);
      
     }
