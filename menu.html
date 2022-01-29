@@ -10,30 +10,49 @@
     <meta name="keywords" content="team 11, salaatit, burgerit, pizzat, juomat">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link href="css/allcss.css" rel="stylesheet" type="text/css">
+
+<style>
+body {
+  background-image: url("menukuvat/black.jpg");
+  background-color: rgb(41, 41, 41);
+  background-repeat: repeat;
+
+}
+
+.further-info {
+
+  background-image: url("menukuvat/wooden.jpg");
+  background-color: rgb(41, 41, 41);
+  background-repeat: repeat;
+}
+</style>
+
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <img src="LOGO.svg" width="100" height="30" alt="restaurant team 11 logo">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="index.html">Koti</a>
-              <a class="nav-link" href="menu.html">Menu</a>
-              <a class="nav-link" href="yhteystiedot.html">Yhteystiedot</a>
-              <a class="nav-link" href="galleria.html">Galleria</a>
-            </div>
-          </div>
+   
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+ 
+  <img src="LOGO_uusi.png" width="100" height="30" style="margin-left: 20px;" alt="restaurant team 11 logo">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="index.html">Koti</a>
+          <a class="nav-link" href="menu.html">Menu</a>
+          <a class="nav-link" href="Yhteystiedot.html">Yhteystiedot</a>
+          <a class="nav-link" href="galleria.html">Galleria</a>
         </div>
-      </nav>
-      <br>
+      </div>
+    </div>
+  </nav>
+     <br> 
 <h1>Menu</h1>
 <br>
 <div class="container">
     <div class="row">
-      <div class="col">
+      <div class="col-4">
 
 <h2>Salaatit</h2>
 
@@ -45,23 +64,23 @@
         
 <h2>Burgerit</h2>
 
-<p>PULLED PORK BURGER 12.90€<br>
+<p>PULLED PORK BURGER 12,90€<br>
 Revitty porsaanliha, BBQ, makea sinappi, 3 pippurin sinappi, coleslaw, punasipuli, majoneesi, tomaatti, salaatti, suolakurkku
 </p>
 
-<p>VEGE BURGER 9.80€<br>
+<p>VEGE BURGER 9,80€<br>
 Vuohenjuusto, kesäkurpitsa, paprika, tomaatti, salaatti, paholaisen hillo, makea sinappi, punasipuli, majoneesi, suolakurkku
 </p>
 
-<p>BACON BURGER 9.80€<br>
+<p>BACON BURGER 9,80€<br>
   Jauhelihapihvi, pekoni, cheddarjuusto, salaatti, tomaatti, punasipuli, suolakurkku, sipulirenkaat, BBQ-kastike, makea sinappi, majoneesi
 </p>
 
-<p>CHICKEN BURGER 9.80€<br>
+<p>CHICKEN BURGER 9,80€<br>
   Broilerin file, salaatti, ananas, punasipuli, cheddarjuusto, paholaisen hillo, currymajoneesi, suolakurkku, tomaatti, makea sinappi
 </p>
       </div>
-      <div class="col">
+      <div class="col-4">
         <h2>Pizzat</h2>
         
         <p>MARGOT&RITA 9,90€<br>
@@ -88,10 +107,8 @@ Vuohenjuusto, kesäkurpitsa, paprika, tomaatti, salaatti, paholaisen hillo, make
           <p>TUNANA 13,50€<br>
           Tomaattikastiketta, mozzarellaraastetta, tonnikalaa, katkarapuja, sipulia ja kapriksia.</p>
       </div>
-      <div class="col">                                         
+      <div class="col-4">                                         
         <h2>Juomat</h2>
-        <br>
-        <div class="col">
           <h3>Limut</h3>
          
          <p>FANTA 2,00€ / 2,50€ / 3,90€</p>
@@ -112,7 +129,7 @@ Vuohenjuusto, kesäkurpitsa, paprika, tomaatti, salaatti, paholaisen hillo, make
 
          <h3>Muut</h3>
 
-         <p>VESI</p>
+         <p>VESI 0,50€</p>
          
       </div>
     </div>
@@ -120,65 +137,57 @@ Vuohenjuusto, kesäkurpitsa, paprika, tomaatti, salaatti, paholaisen hillo, make
 </div>
 <br>
 
-<div class="further-info" style=" display:flex;justify-content: center;gap: 91px; ">
-
-  <a href="index.html">
-    <img srcset="pizzeria400.jpg 400h,
-        pizzeria120.jpg 120h"
-        sizes="(max-height: 500px) 400 px,
-        800px"
-        src="pizzeria400.jpg"
-        alt="pizzeria">
-      </a>
+<div class="further-info" style=" display:flex;justify-content: center;gap: 250px; ">
  
       <a href="index.html">
-        <img srcset="box400.jpg 400h,
-            box120.jpg 120h"
-            sizes="(max-height: 500px) 400 px,
-            800px"
-            src="box400.jpg"
+        <img srcset="menukuvat/box400.jpg 300h,
+            menukuvat/box120.jpg 120h"
+            sizes="(max-height: 400px) 300 px,
+            600px"
+            src="menukuvat/box400.jpg"
             alt="box">
           </a>
     
       <a href="index.html">
-        <img srcset="pizzat400.jpg 400h,
-            pizzat120.jpg 120h"
-            sizes="(max-height: 500px) 400 px,
-            800px"
-            src="pizzat400.jpg"
+        <img srcset="menukuvat/pizzat400.jpg 300h,
+            menukuvat/pizzat120.jpg 120h"
+            sizes="(max-height: 400px) 300 px,
+            600px"
+            src="menukuvat/pizzat400.jpg"
             alt="pizzat">
           </a>
 
     </div>
     <br>
 
-<footer style="width: 1000px; display: table; text-align: center; margin-left: auto; margin-right: auto;">
-<h2>Seuraa meitä</h2>
-<br>
-<div class="container">
-  <div class="row justify-content-md-center">
-  <div class="col-2">
-     <a href="https://www.facebook.com/">
-    <img src="https://www.facebook.com/images/fb_icon_325x325.png" alt="Facebook logo" width="100px" height="100px" >
-     </a>
-  </div>
-    <div class="col-2">
-      <a href="https://www.instagram.com/">
-        <img src="https://play-lh.googleusercontent.com/h9jWMwqb-h9hjP4THqrJ50eIwPekjv7QPmTpA85gFQ10PjV02CoGAcYLLptqd19Sa1iJ" alt="instagram logo" width="100px"
-        height="100px">
-      </a>
+    <footer style="position: static; top: 100px left 0; bottom: 0; width: 100%;text-align: center;">
+  
+    <h2>Seuraa meitä</h2>
+    <br>
+    <div class="container">
+      <div class="row justify-content-md-center">
+      <div class="col" style="background-color: white;">
+         <a href="https://www.facebook.com/">
+        <img src="https://www.facebook.com/images/fb_icon_325x325.png" alt="Facebook logo" style="width: 100px;height: 100px; margin-bottom: 50px;">
+         </a>
+      </div>
+        <div class="col"style="background-color: white;">
+          <a href="https://www.instagram.com/">
+            <img src="https://play-lh.googleusercontent.com/h9jWMwqb-h9hjP4THqrJ50eIwPekjv7QPmTpA85gFQ10PjV02CoGAcYLLptqd19Sa1iJ" alt="instagram logo" style="width: 100px;height: 100px;">
+          </a>
+        </div>
+       <div class="col" style="background-color: white;">
+         <a href="https://www.youtube.com/">
+          <img src="https://www.youtube.com/img/desktop/yt_1200.png" alt="yotube logo" style="width: 100px;height: 100px;">
+          
+        </a>
+       </div>
+      </div>
+    
     </div>
-   <div class="col-2">
-     <a href="https://www.youtube.com/">
-      <img src="https://www.youtube.com/img/desktop/yt_1200.png" alt="yotube logo" width="100px" height="100px">
-      
-    </a>
-   </div>
-  </div>
+    
+    </footer>
 
-</div>
-
-</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>

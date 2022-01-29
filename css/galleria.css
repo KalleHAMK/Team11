@@ -1,9 +1,13 @@
-body {
+    body > div {
     background-color: rgb(34, 34, 34);
+    }
+    body >  {
+    background-color:  rgb(34, 34, 34);
     }
     h2 {
     text-align: center;
     font-size: 40px;
+    color: #fafafa;
     border-bottom: 2px solid #423e3e;
     }
     h1 {
@@ -58,4 +62,16 @@ body {
     div > .center{
         background-color: rgb(230, 211, 195);
         color: rgb(233, 47, 0);
+    }
+    div > .section {
+        background-color: rgb(34, 34, 34);
+        text-align: center;
+        float: center;
+    }
+    section {
+        background-color: rgb(34, 34, 34);
+    }
+    table {
+        margin-left: auto;
+        margin-right: auto;
     }
