@@ -1,4 +1,4 @@
-/*lauran*/
+
 body{
 
     background-color: rgb(34, 34, 34);
@@ -56,7 +56,6 @@ body{
 
   
 
- /*timon*/
 .col > p {
     text-decoration: wavy;
 }
@@ -71,7 +70,7 @@ text-decoration: double;
 }
 body > h1{
     text-align: center;
-    font-size: 30;
+    font-size: 30px;
 }
 footer > p{
 text-align: center;
